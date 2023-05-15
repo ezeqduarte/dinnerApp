@@ -3,7 +3,7 @@ import React from "react";
 export default function Header() {
   return (
     <header className="w-full text-white h-[90vh] bg-[url('/images/homepage/hero-bg-tablet.jpg')]  lg:bg-[url('/images/homepage/hero-bg-desktop.jpg')] 2xl:bg-[url('/images/homepage/hero-bg-desktop@2x.jpg')] bg-contain bg-no-repeat bg-[#111111] bg-top lg:bg-center lg:bg-cover">
-      <div className="container flex flex-col py-[1rem] h-full mx-auto px-5 items-center justify-center lg:items-start lg:justify-start">
+      <div className="container flex flex-col py-[1rem] h-full mx-auto px-[5rem] items-center justify-center lg:items-start lg:justify-start">
         <nav className="h-[8vh] mt-[8rem] lg:mt-[2rem]  flex justify-between items-center">
           <svg xmlns="http://www.w3.org/2000/svg" width="103" height="40">
             <path
