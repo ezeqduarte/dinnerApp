@@ -186,6 +186,11 @@ function App() {
           </div>
         </div>
       </section>
+      <section className="w-full flex justify-center text-white xl:h-[80vh]">
+        <div className="container flex flex-col xl:flex-row py-[1rem] md:px-[5rem] h-full mx-auto px-5 items-center justify-center lg:items-start lg:justify-start">
+          
+        </div>
+      </section>
     </div>
   );
 }
