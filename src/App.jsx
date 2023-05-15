@@ -32,7 +32,7 @@ function App() {
             src="/images/homepage/enjoyable-place-mobile.jpg"
           ></img>
 
-          <div className="flex justify-center items-center xl:items-start xl:px-[5rem] text-center xl:text-left h-full gap-[30px]  flex-col">
+          <div className="flex justify-center items-center xl:items-start xl:pl-[3rem] 2xl:pl-[18rem] text-center xl:text-left h-full gap-[30px]  flex-col">
             <svg xmlns="http://www.w3.org/2000/svg" width="71" height="7">
               <g fill="none" fill-rule="evenodd">
                 <path fill="#9E7F66" d="M15 3h56v1H15z" />
@@ -51,17 +51,17 @@ function App() {
         </div>
       </section>
       <section
-        className={`md:bg-[url('/images/patterns/pattern-curve-top-left.svg')] mt-[10rem] xl:mt-[0rem] pb-[8rem] bg-no-repeat xl:bg-left bg-[bottom_right_-23rem]`}
+        className={`md:bg-[url('/images/patterns/pattern-curve-top-left.svg')] mt-[10rem] xl:mt-[0rem] pb-[8rem] xl:pb-[5.5rem] 2xl:pb-[0rem] bg-no-repeat xl:bg-[bottom_right_0rem] bg-[bottom_right_-23rem]`}
       >
         <div
-          className={`container relative flex flex-col xl:flex-row-reverse py-[1rem] xl:h-[70vh] mx-auto px-[4rem] items-center justify-center xl:items-start xl:justify-start`}
+          className={`container relative flex flex-col xl:flex-row-reverse py-[1rem] xl:h-[70vh] mx-auto px-[4rem] xl:px-[5rem] items-center justify-center xl:items-start xl:justify-start`}
         >
           <img
             className="top-[-15rem] hidden xl:flex"
             src="/images/homepage/locally-sourced-desktop.jpg"
           ></img>
           <img
-            className="top-[-5rem] hidden md:flex xl:hidden"
+            className="hidden top-[-3rem] md:block relative xl:hidden"
             src="/images/homepage/locally-sourced-tablet.jpg"
           ></img>
 
@@ -75,7 +75,7 @@ function App() {
             src="/images/homepage/locally-sourced-mobile.jpg"
           ></img>
 
-          <div className="flex justify-center items-center xl:items-start xl:px-[5rem] text-center xl:text-left h-full gap-[30px]  flex-col">
+          <div className="flex justify-center items-center xl:items-start xl:pr-[3rem] 2xl:pr-[18rem] text-center xl:text-left h-full gap-[30px]  flex-col">
             <svg xmlns="http://www.w3.org/2000/svg" width="71" height="7">
               <g fill="none" fill-rule="evenodd">
                 <path fill="#9E7F66" d="M15 3h56v1H15z" />
@@ -83,19 +83,19 @@ function App() {
               </g>
             </svg>
             <h2 className="font-bold  text-[35px]">
-              Enjoyable place for all the family
+              The most locally sourced food
             </h2>
             <p className="font-regular lg:w-1/2 xl:w-full text-[20px]">
-              Our relaxed surroundings make dining with us a great experience
-              for everyone. We can even arrange a tour of the farm before your
-              meal.
+              All our ingredients come directly from our farm or local fishery.
+              So you can be sure that you’re eating the freshest, most
+              sustainable food.
             </p>
           </div>
         </div>
       </section>
-      {/*  <section className="w-full flex justify-center h-[75vh] text-white h-[90vh]  bg-[#111111] ">
+       <section className="w-full flex justify-center h-[75vh] text-white h-[90vh]  bg-[#111111] ">
         <div className="container flex py-[1rem] h-full mx-auto px-5 items-center justify-center lg:items-start lg:justify-start">
-          <div className="flex justify-center h-full w-1/2 px-[5rem] gap-[30px]  flex-col">
+          {/* <div className="flex justify-center h-full w-1/2 px-[5rem] gap-[30px]  flex-col">
             <svg xmlns="http://www.w3.org/2000/svg" width="71" height="7">
               <g fill="none" fill-rule="evenodd">
                 <path fill="#9E7F66" d="M15 3h56v1H15z" />
@@ -141,9 +141,9 @@ function App() {
                 </p>
               </div>
             </article>
-          </div>
+          </div> */}
         </div>
-      </section> */}
+      </section>
     </div>
   );
 }
