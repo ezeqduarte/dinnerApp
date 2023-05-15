@@ -93,9 +93,9 @@ function App() {
           </div>
         </div>
       </section>
-      <section className="w-full flex justify-center text-white xl:h-[90vh]  bg-[#111111] ">
-        <div className="container flex flex-col py-[1rem] h-full mx-auto px-5 items-center justify-center lg:items-start lg:justify-start">
-          <div className="flex justify-center items-center text-center mt-5 h-full xl:px-[5rem] gap-[30px]  flex-col">
+      <section className="w-full flex justify-center text-white xl:h-[80vh]  bg-[#111111] ">
+        <div className="container flex flex-col xl:flex-row py-[1rem] md:px-[5rem] h-full mx-auto px-5 items-center justify-center lg:items-start lg:justify-start">
+          <div className="flex justify-center items-center xl:items-start xl:w-[40%] text-center lg:text-start mt-5 h-full  gap-[30px]  flex-col">
             <svg xmlns="http://www.w3.org/2000/svg" width="71" height="7">
               <g fill="none" fill-rule="evenodd">
                 <path fill="#9E7F66" d="M15 3h56v1H15z" />
@@ -110,41 +110,74 @@ function App() {
               some of our diner’s favourites. Our menu is revamped every season.
             </p>
           </div>
-          <div className="flex py-[3rem] flex-col justify-center h-full gap-5 divide-y divide-zinc-600">
-            <article className="text-center flex flex-col border-bottom">
-              <img className="" src="/images/homepage/salmon-mobile@2x.jpg" />
-              <div className="py-[3rem]">
-                <h3 className="font-semibold text-[50px]">
-                  Seared Salmon Fillet
-                </h3>
-                <p className="font-regular text-[25px]">
-                  Our locally sourced salmon served with a refreshing buckwheat
-                  summer salad.
-                </p>
-              </div>
-            </article>
-            <article className="text-center flex flex-col border-bottom">
-              <img className="" src="/images/homepage/beef-mobile@2x.jpg" />
-              <div className="py-[3rem]">
-                <h3 className="font-semibold text-[50px]">
-                  Seared Salmon Fillet
-                </h3>
-                <p className="font-regular text-[25px]">
-                  Our locally sourced salmon served with a refreshing buckwheat
-                  summer salad.
-                </p>
-              </div>
-            </article>
-            <article className="text-center flex flex-col border-bottom">
+          <div className="flex py-[3rem] flex-col justify-center h-full gap-5 divide-y divide-zinc-600 xl:w-[60%] items-center justify-center pl-[2rem] xl:pt-[8rem]">
+            <article className="relative text-center md:text-start md:gap-[4rem] pt-[3rem] md:pt-3 items-center justify-center flex flex-col md:flex-row  border-bottom xl:w-[90%]">
               <img
-                className=""
-                src="/images/homepage/chocolate-mobile@2x.jpg"
+                className="md:hidden"
+                src="/images/homepage/beef-mobile@2x.jpg"
               />
-              <div className="py-[3rem]">
-                <h3 className="font-semibold text-[50px]">
+              <img
+                className="hidden z-20 md:block"
+                src="/images/homepage/beef-desktop-tablet.jpg"
+              />
+
+              <img
+                className="absolute top-10 z-10 hidden md:block left-[6rem]"
+                src="/images/patterns/pattern-divide.svg"
+              ></img>
+              <div className="py-[3rem] md:py-4">
+                <h3 className="font-semibold text-[25px]">
                   Seared Salmon Fillet
                 </h3>
-                <p className="font-regular text-[25px]">
+                <p className="font-regular text-[18px]">
+                  Our locally sourced salmon served with a refreshing buckwheat
+                  summer salad.
+                </p>
+              </div>
+            </article>
+            <article className="relative text-center md:text-start md:gap-[4rem] pt-[3rem] md:pt-3 items-center justify-center flex flex-col md:flex-row  border-bottom xl:w-[90%]">
+              <img
+                className="md:hidden"
+                src="/images/homepage/beef-mobile@2x.jpg"
+              />
+              <img
+                className="hidden z-20 md:block"
+                src="/images/homepage/beef-desktop-tablet.jpg"
+              />
+
+              <img
+                className="absolute top-10 z-10 hidden md:block left-[6rem]"
+                src="/images/patterns/pattern-divide.svg"
+              ></img>
+              <div className="py-[3rem] md:py-4">
+                <h3 className="font-semibold text-[25px]">
+                  Seared Salmon Fillet
+                </h3>
+                <p className="font-regular text-[18px]">
+                  Our locally sourced salmon served with a refreshing buckwheat
+                  summer salad.
+                </p>
+              </div>
+            </article>
+            <article className="relative text-center md:text-start md:gap-[4rem] pt-[3rem] md:pt-3 items-center justify-center flex flex-col md:flex-row  border-bottom xl:w-[90%]">
+              <img
+                className="md:hidden"
+                src="/images/homepage/beef-mobile@2x.jpg"
+              />
+              <img
+                className="hidden z-20 md:block"
+                src="/images/homepage/beef-desktop-tablet.jpg"
+              />
+
+              <img
+                className="absolute top-10 z-10 hidden md:block left-[6rem]"
+                src="/images/patterns/pattern-divide.svg"
+              ></img>
+              <div className="py-[3rem] md:py-4">
+                <h3 className="font-semibold text-[25px]">
+                  Seared Salmon Fillet
+                </h3>
+                <p className="font-regular text-[18px]">
                   Our locally sourced salmon served with a refreshing buckwheat
                   summer salad.
                 </p>
