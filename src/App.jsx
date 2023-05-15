@@ -14,17 +14,17 @@ function App() {
     <div className="font-spartan">
       <Header />
       <section
-        className={`md:bg-[url('/images/patterns/pattern-curve-top-right.svg')] bg-no-repeat lg:bg-left bg-[center_right_23rem]`}
+        className={`md:bg-[url('/images/patterns/pattern-curve-top-right.svg')] bg-no-repeat xl:bg-left bg-[center_right_23rem]`}
       >
         <div
-          className={`container flex flex-col py-[1rem] lg:h-[70vh] mx-auto px-[4rem] items-center justify-center lg:items-start lg:justify-start`}
+          className={`container flex flex-col py-[1rem] xl:h-[70vh] mx-auto px-[4rem] items-center justify-center xl:items-start xl:justify-start`}
         >
-         {/*  <img
+          {/*  <img
             className="top-[-5rem] hidden lg:flex"
             src="/images/homepage/enjoyable-place-desktop.jpg"
           ></img> */}
           <img
-            className="hidden top-[-3rem] md:block relative lg:hidden"
+            className="hidden top-[-3rem] md:block relative xl:hidden"
             src="/images/homepage/enjoyable-place-tablet.jpg"
           ></img>
           <img
@@ -39,10 +39,10 @@ function App() {
                 <circle cx="3.5" cy="3.5" r="3" stroke="#9E7F66" />
               </g>
             </svg>
-            <h2 className="font-bold lg:pr-[12rem] text-[35px]">
+            <h2 className="font-bold xl:pr-[12rem] text-[35px]">
               Enjoyable place for all the family
             </h2>
-            <p className="font-regular text-[20px]">
+            <p className="font-regular lg:w-1/2 text-[20px]">
               Our relaxed surroundings make dining with us a great experience
               for everyone. We can even arrange a tour of the farm before your
               meal.
@@ -51,21 +51,24 @@ function App() {
         </div>
       </section>
       <section
-        className={`md:bg-[url('/images/patterns/pattern-curve-top-left.svg')] mt-[8rem] pb-[6rem] bg-no-repeat lg:bg-left bg-[bottom_right_-23rem]`}
+        className={`md:bg-[url('/images/patterns/pattern-curve-top-left.svg')] mt-[10rem] pb-[8rem] bg-no-repeat xl:bg-left bg-[bottom_right_-23rem]`}
       >
         <div
-          className={`container relative flex flex-col py-[1rem] lg:h-[70vh] mx-auto px-[4rem] items-center justify-center lg:items-start lg:justify-start`}
+          className={`container relative flex flex-col py-[1rem] xl:h-[70vh] mx-auto px-[4rem] items-center justify-center xl:items-start xl:justify-start`}
         >
           {/* <img
             className="top-[-5rem] hidden lg:flex"
             src="/images/homepage/enjoyable-place-desktop.jpg"
           ></img> */}
           <img
-            className="hidden top-[-3rem] md:block relative lg:hidden"
+            className="hidden top-[-3rem] md:block relative xl:hidden"
             src="/images/homepage/locally-sourced-tablet.jpg"
           ></img>
-          <img className="absolute top-[12rem] right-[2rem]" src="/images/patterns/pattern-lines.svg" />
-          
+          <img
+            className="absolute hidden md:block top-[12rem] md:right-[1rem] lg:right-[10rem]"
+            src="/images/patterns/pattern-lines.svg"
+          />
+
           <img
             className="relative md:hidden top-[-2rem] object-cover right-0"
             src="/images/homepage/locally-sourced-mobile.jpg"
@@ -78,10 +81,10 @@ function App() {
                 <circle cx="3.5" cy="3.5" r="3" stroke="#9E7F66" />
               </g>
             </svg>
-            <h2 className="font-bold lg:pr-[12rem] text-[35px]">
+            <h2 className="font-bold xl:pr-[12rem] text-[35px]">
               The most locally sourced food
             </h2>
-            <p className="font-regular text-[20px]">
+            <p className="font-regular lg:w-1/2  text-[20px]">
               All our ingredients come directly from our farm or local fishery.
               So you can be sure that you’re eating the freshest, most
               sustainable food.
