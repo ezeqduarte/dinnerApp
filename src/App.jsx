@@ -14,21 +14,21 @@ function App() {
     <div className="font-spartan">
       <Header />
       <section
-        className={`md:bg-[url('/images/patterns/pattern-curve-top-right.svg')] bg-no-repeat lg:bg-left bg-[center_right_10rem]`}
+        className={`md:bg-[url('/images/patterns/pattern-curve-top-right.svg')] bg-no-repeat lg:bg-left bg-[center_right_23rem]`}
       >
         <div
           className={`container flex flex-col py-[1rem] lg:h-[70vh] mx-auto px-[4rem] items-center justify-center lg:items-start lg:justify-start`}
         >
-          {/* <img
+         {/*  <img
             className="top-[-5rem] hidden lg:flex"
-            src="/images/homepage/enjoyable-place-desktop.jpg"
-          ></img>
-          <img
-            className="hidden top-[-5rem] md:flex lg:hidden"
             src="/images/homepage/enjoyable-place-desktop.jpg"
           ></img> */}
           <img
-            className="relative top-[-2rem] object-cover right-0"
+            className="hidden top-[-3rem] md:block relative lg:hidden"
+            src="/images/homepage/enjoyable-place-tablet.jpg"
+          ></img>
+          <img
+            className="relative md:hidden top-[-2rem] object-cover right-0"
             src="/images/homepage/enjoyable-place-mobile.jpg"
           ></img>
 
@@ -51,21 +51,23 @@ function App() {
         </div>
       </section>
       <section
-        className={`md:bg-[url('/images/patterns/pattern-curve-top-right.svg')] mt-[5rem] bg-no-repeat lg:bg-left bg-[center_right_10rem]`}
+        className={`md:bg-[url('/images/patterns/pattern-curve-top-left.svg')] mt-[8rem] pb-[6rem] bg-no-repeat lg:bg-left bg-[bottom_right_-23rem]`}
       >
         <div
-          className={`container flex flex-col py-[1rem] lg:h-[70vh] mx-auto px-[4rem] items-center justify-center lg:items-start lg:justify-start`}
+          className={`container relative flex flex-col py-[1rem] lg:h-[70vh] mx-auto px-[4rem] items-center justify-center lg:items-start lg:justify-start`}
         >
           {/* <img
             className="top-[-5rem] hidden lg:flex"
             src="/images/homepage/enjoyable-place-desktop.jpg"
-          ></img>
-          <img
-            className="hidden top-[-5rem] md:flex lg:hidden"
-            src="/images/homepage/enjoyable-place-desktop.jpg"
           ></img> */}
           <img
-            className="relative top-[-2rem] object-cover right-0"
+            className="hidden top-[-3rem] md:block relative lg:hidden"
+            src="/images/homepage/locally-sourced-tablet.jpg"
+          ></img>
+          <img className="absolute top-[12rem] right-[2rem]" src="/images/patterns/pattern-lines.svg" />
+          
+          <img
+            className="relative md:hidden top-[-2rem] object-cover right-0"
             src="/images/homepage/locally-sourced-mobile.jpg"
           ></img>
 
