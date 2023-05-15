@@ -93,16 +93,16 @@ function App() {
           </div>
         </div>
       </section>
-       <section className="w-full flex justify-center h-[75vh] text-white h-[90vh]  bg-[#111111] ">
-        <div className="container flex py-[1rem] h-full mx-auto px-5 items-center justify-center lg:items-start lg:justify-start">
-          {/* <div className="flex justify-center h-full w-1/2 px-[5rem] gap-[30px]  flex-col">
+      <section className="w-full flex justify-center text-white xl:h-[90vh]  bg-[#111111] ">
+        <div className="container flex flex-col py-[1rem] h-full mx-auto px-5 items-center justify-center lg:items-start lg:justify-start">
+          <div className="flex justify-center items-center text-center mt-5 h-full xl:px-[5rem] gap-[30px]  flex-col">
             <svg xmlns="http://www.w3.org/2000/svg" width="71" height="7">
               <g fill="none" fill-rule="evenodd">
                 <path fill="#9E7F66" d="M15 3h56v1H15z" />
                 <circle cx="3.5" cy="3.5" r="3" stroke="#9E7F66" />
               </g>
             </svg>
-            <h2 className="font-bold text-[60px] pr-[4rem]">
+            <h2 className="font-bold text-[60px]">
               A few highlights from our menu
             </h2>
             <p className="font-regular text-[25px]">
@@ -110,38 +110,47 @@ function App() {
               some of our diner’s favourites. Our menu is revamped every season.
             </p>
           </div>
-          <div className="w-1/2 flex flex-col justify-center h-full gap-5 divide-y divide-zinc-600">
-            <article className="border-bottom">
-              <img></img>
-              <div>
-                <h3>Seared Salmon Fillet</h3>
-                <p>
+          <div className="flex py-[3rem] flex-col justify-center h-full gap-5 divide-y divide-zinc-600">
+            <article className="text-center flex flex-col border-bottom">
+              <img className="" src="/images/homepage/salmon-mobile@2x.jpg" />
+              <div className="py-[3rem]">
+                <h3 className="font-semibold text-[50px]">
+                  Seared Salmon Fillet
+                </h3>
+                <p className="font-regular text-[25px]">
                   Our locally sourced salmon served with a refreshing buckwheat
                   summer salad.
                 </p>
               </div>
             </article>
-            <article>
-              <img></img>
-              <div>
-                <h3>Rosemary Filet Mignon</h3>
-                <p>
-                  Our prime beef served to your taste with a delicious choice of
-                  seasonal sides.
+            <article className="text-center flex flex-col border-bottom">
+              <img className="" src="/images/homepage/beef-mobile@2x.jpg" />
+              <div className="py-[3rem]">
+                <h3 className="font-semibold text-[50px]">
+                  Seared Salmon Fillet
+                </h3>
+                <p className="font-regular text-[25px]">
+                  Our locally sourced salmon served with a refreshing buckwheat
+                  summer salad.
                 </p>
               </div>
             </article>
-            <article>
-              <img></img>
-              <div>
-                <h3>Summer Fruit Chocolate Mousse</h3>
-                <p>
-                  Creamy mousse combined with summer fruits and dark chocolate
-                  shavings.
+            <article className="text-center flex flex-col border-bottom">
+              <img
+                className=""
+                src="/images/homepage/chocolate-mobile@2x.jpg"
+              />
+              <div className="py-[3rem]">
+                <h3 className="font-semibold text-[50px]">
+                  Seared Salmon Fillet
+                </h3>
+                <p className="font-regular text-[25px]">
+                  Our locally sourced salmon served with a refreshing buckwheat
+                  summer salad.
                 </p>
               </div>
             </article>
-          </div> */}
+          </div>
         </div>
       </section>
     </div>
